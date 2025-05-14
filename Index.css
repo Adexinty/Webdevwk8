@@ -1,1 +1,29 @@
-
+body {
+  font-family: sans-serif;
+}
+.bg-green-600 {
+  background-color: #16a34a;
+}
+.bg-green-700 {
+  background-color: #15803d;
+}
+.text-green-700 {
+  color: #16a34a;
+}
+.text-red-500 {
+  color: #f87171;
+}
+.hover\:text-green-600:hover {
+  color: #16a34a;
+}
+.hover\:bg-green-700:hover {
+  background-color: #15803d;
+}
+.bg-opacity-75 {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+@media (max-width: 640px) {
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
